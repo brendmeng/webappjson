@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About</title>
+
+
+
+  </head>
+
+  <body>
+
+
+   
+    <nav>
+ 
+        <li><a href="index.html#projects">Go Back</a></li>
+        <li> <a href="https://www.youtube.com/watch?v=F26qCUUyD_c" target="_blank">Video Demo</a></li>
+
+
+  </nav>
+    <div class="info">
+      
+    
+    <h1>Covid 19 and the Economy Visualization</h1>
+      
+
+      <img id = "life" src="life.png" alt="Intro to Covid graph" style="max-width: 30%" />
+      <img id = "secondary" src="secondary.png" alt="Interactive covid graphs" style="max-width: 30%" />
+
+
+
+
+      
+    <p>
+<br> Members: Brend (Bolang) Meng, Sarah Kim, Spencer Kuldell
+    </p>
+    
+    <h2>
+      Project Information
+    </h2>
+    <h3>
+      Motivations
+    </h3>
+    <p>
+      For this project, we explored a few datasets 
+      and eventually decided on the Covid Dataset- 
+      the first in the list below, as it had the most complete, vibrant, and diverse data 
+      that could allow us to find trends using the most amount of independent variables.
+      It gave the team 
+      flexibility to brainstorm narratives that we wanted to analyze; Covid was so prominent in our lives that having a large dataset with many columns gave us the chance to see the many different impacts a pandemic has on a global scale- and how the world responded. We were able to learn
+      more about the effects of Covid through this project and hoped that we could share
+      the interesting insights that this dataset provides to see if our hypotheses/gut instincts were correct.
+      
+     
+     
+      <ul>
+        
+            <li>
+         <a href="https://github.com/owid/covid-19-data" target="_blank">Covid 19 Data</a>
+        
+          <li>
+            <a href="https://www.kaggle.com/shivamb/tech-company-fundings-2020-onwards" target="_blank">
+              Tech Funding 2020 and Onward
+            </a>
+        </li>
+        
+        <li>
+          <a href="https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo" target="_blank">
+           2021 Tokyo Olympic Data
+          </a>
+        </li>
+        
+        
+        
+      </ul>
+    </p>
+    
+    <p>
+We wanted to explore life expectancies by region, new cases by month, new deaths by months, and stringency index by month. 
+    While the other topics are self-explanatory, the stringency index is a measure that indicates
+    the strictness of the lockdown policies. Judging from the life expectancy and number of new cases,
+    we expected to see correlation between these three elements. Our main theory was this: less developed countries with lower base life expectancies meant that covid cases/deaths would be higher. In response to this, countries would enact stricter protocols to combat the surge in infections.
+   
+    
+    <h3>
+Visualization Design and Encoding   </h3>
+    <p>
+      To do this, we picked a few different methods to depict the data:
+    </p>
+   
+        <li>
+          Bar chart: allows us to illustrate total life expectancy by the country through length encoding. The reason we want
+          to know life expectancy is to connect the severity of impact that new cases would have on a specific country.  Life expectancy is affected by the quality and quanitity of resources that contribute to maintaining or recovering good health. Low life expectancies are typically associated with developing countries with relatively poor public healthcare systems and would thus be most drastically affected by Covid. A pandemic would exacerbate the problems of poorly managed healthcare and expose their weaknesses.
+          For example, through the sorting function, we can see that Nigeria has the lowest life expectancy, while Japan 
+          has the highest. This suggests that the rate/severity of new cases, and thus, death of COVID will be heavier in Nigeria
+          than it would be in Japan.
+  
+        </li>
+        <li>
+          Two line charts: performs better in displaying individual data points (especially with our addition of the tooltip) and grants the ability to brush.
+          The brushing and linking of two graphs allows users to take an abstract concept and better zoom into the area of focus to examine a relationship. Lines, as an angular and spatial encoding allow for better visual comparisons as well- especially through time scales.
+          We created one graph that specifies new cases -that can change to new deaths- and another that displays the stringency index of the corresponding country. 
+      Showing the trend of new cases over time
+          and its correlation with the stringency index can also give us insights into 
+          how Covid would have an impact on the quality of life in these regions and how authorities responded. The line graphs 
+          display the specific country that the user selects by clicking on the bars.
+          
+        </li>
+        
+ <h3>
+Interactions and Animation Functions    </h3>
+
+  
+      The interactions we incorporated were...
+    
+    <p> 
+      For the bar graph, we used a sort function to help distinguish the bars by height, and thus arrange the data in ascending/descending order of life expectancy. We also
+      made the bars interactive so that you can customize which country you are viewing by linking user selection with the graphs below that indicate new cases/deaths and stringency index.
+      <br>
+      The two line graphs are customizable by user selection when clicking
+      the bar that corresponds with the country they are interested in exploring. 
+      The case/death graph can brush/link to the stringency one, while also allowing the user to change the data from new cases per day to new deaths per day. For the stringency line graph, users can hover 
+      over selected points to see a clear marker at each point, denoting the stringency index value, number of cases, and deaths. 
+    </p>
+    </p>
+    
+    
+    <p>
+      Some takeaways from the data were..
+      <br>
+      There is a correlation between new cases and the stringency index. The
+      correlation between these two factors is especially strong in the earlier dates- signally a more reactive sentiment to the pandemic.
+      In support of our hypothesis, the stringency index is slightly higher in areas with lower life expectancies. This makes sense because
+      lower life expectancy implies less resources devoted to healthcare, and so those countries require stricter regulations. 
+      Furthermore, countries with lower life expectancies generally tend to be developing, and thus the people have less incentive to congregate in large metropolitan areas, making it easier to enforce compliance.
+      Therefore, for developing countries, taking more serious lockdown measures was likely the cheapest way to deal with the pandemic instead of overhauling an entire healthcare establishment.
+      However, the stringency index does decrease over time and does not return to peak levels as
+      it did in the earlier dates (as shown for Nigeria). This could be because the less developed
+      coutries cannot maintain an economy without their workers on site, especially when most
+      of the jobs in these countries most likely involve manual labor and are less flexible. 
+       <br>
+    </p>
+
+   
+    
+      
+    <h2>
+    Our Process
+    </h2>
+   
+    <p>
+     We were pretty firm on how we wanted to approach the problem from the start. Below are some of the visualizations we drew out as models for the visualizations we hoped to create after looking through the data
+      <br>
+      <image src="https://cdn.glitch.me/7143406e-1b13-432c-95e1-b30e9ce03930%2FScreen%20Shot%202021-11-03%20at%205.59.31%20PM.png?v=1635976814785"
+             height="350"></image>
+      <image src="https://cdn.glitch.me/7143406e-1b13-432c-95e1-b30e9ce03930%2FScreen%20Shot%202021-11-03%20at%205.59.42%20PM.png?v=1635976818382"
+             height="350"></image>
+     
+      <br>  
+   
+      <br>
+    </p>
+      
+      <p>
+        
+       The team initally wanted to see how external factors would play into Covid's impact on the country. However, the data only provided cardiovascular disease death and diabetes indices- arbitrary and hard to compare. These two variables were also scaled very differently- so we could not use a bar chart to incorporate them.
+        <br> Instead, we used life expectancy as a proxy to see how healthy the country was, retaining the idea that a barchart would be the user's tool to sort the graphs below it, so we could view trends over time in different geographic locations.
+      </p>
+    
+    <h3>
+      Struggles and Lessons
+    </h3>
+    <p>
+      <ul>
+        <li>
+Building modular code and collaborating with interacting visualizations is challenging. Everyone codes differently- so finding variables within differently structured code and mixing logic was extremely tough. Furthermore, some concepts were hard to code at a baseline, and so trying to implement things other people might not understand was difficult, siloeing the tasks even more.
+       </li>
+       
+   <li> Brushing and linking is no easy task. It was difficult to conceptually think through what was being brushed, what the range of data was that was being passed to the stringency graph, and ensuring that all update+enter+exit patterns were properly implemented with no bugs.
+     
+  <li> 
+    Simply sorting the bar graphs and ensuring that it did not hinder/adversely impact other animations/linking implemented prior was meticulous- we had to be careful and triple check code to ensure nothing was interfering and the correct elements were being selected.
+   
+     
+     <br> <br> <br>
+<h3>
+Workload Distribution    </h3>
+  
+   
+    <p>
+            <li>
+      Visualizations: Brend (case/death line graph) , Sarah (bar graph), Spencer (stringency graph)
+      <br><br>
+                 <li> Interactions/Animations in charts: Brend implemented the linking (brushing/switching country) and animations (tooltips, order sorting, switching data) on all three of the graphs.
+      
+      <br><br>
+                     <li> Reflection/Planning: Brend & Sarah contributed to the planning and reflection of the project as well as finding the data.
+      
+                       
+                           <br><br>
+                       
+                    
+     Final Thoughts: This was a learning experience, both about covid, visualization, and collaboration. The process could have been more organized
+      and the execution could have been cleaner. But, considering that this was all out first times doing a collaboration
+      project like this, it was a good experience. We will definitely take the lessons we learned
+      through this project to be better in our future endeavors. 
+    </p>
+    </div>
+  </body>
+</html>

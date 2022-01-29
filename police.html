@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div>
+    <nav>
+
+        <li><a href="index.html#projects">Go Back</a></li>
+        <li> <a href="https://www.youtube.com/watch?v=L5s-XaJBZ-8" target="_blank">Video Demo</a></li>
+        
+    </nav>
+</div>
+    
+    <h1>
+        Visualization: Police Violence in America
+
+
+    </h1>
+
+
+    
+    <br>
+    <img id = "police" src="force.png" alt="photo of force graph " style="max-width: 50%" />
+    <p>
+        <br> Members: Brend (Bolang) Meng, Sarah Kim, Spencer Kuldell
+            </p>
+
+
+  <body>
+    <h2>Project Information</h2>
+
+    <h3>
+        Motivations
+      </h3>
+      <p>  Gun violence has been one of the top topics of concern for the United States. From mass shootings to police gun violence, the U.S. has been dealing with a recent surge in gun violence victims.
+
+
+        Many of the reasons why people own a gun is because they feel unsafe, stemming from distrust in the police, who are meant to protect the people. We will highlight police shootings from 2015 to 2021.
+        
+        
+        We will dive into the profile of the victims of those shot by the police around the United States as well as the circumstances surrounding the incidents in order to help readers understand the urgency and reality of the issue.
+                
+        </p>
+      
+    
+    </div>
+    <div class="text-block">
+      
+      <p>
+        <strong>Data processing:</strong>
+        <br />
+        <br />
+        Generally, all of our data processing was done in cleaning the data. The
+        dataset contained empty cells that would cause errors when implementing
+        the data. So, for our visualizations to work more effectively, we wanted
+        to include the "null" data. We filled in these blank cells with data
+        describing the type of "null" value like "N/A" or "Undefined" or
+        "Undetermined." This word selection was specific to the category that
+        the blank cell was in. Once the data had no more blanks, it made the
+        visualizations more accurate and easier to understand.
+        <br />
+        As part of our third visualization, we also had to create a rate of
+        death ratio -- victims of a certain race divided by the total population
+        of that particular race in each state -- to ensure that users make the
+        observations that we intend. We wanted to show that there was a sample
+        bias in the previous visualization based on the total population. In
+        other words, it may appear that the number of white victims outnumber
+        that of black victims, but this is because there is a larger white
+        population than a black population. The rate displays a more accurate
+        comparison because the frequency of victims are shown in respect to the
+        size of the population. The states were also divided into different
+        regions to display the regional data using color codes.
+      </p>
+      <p>
+        <strong>Design Rationale </strong> <br />
+        <br />
+        To show and hopefully grant some insight into a very controversial
+        issue, we created the following:
+        <br />
+        <br />
+        1) An interactive force visualization where each node designates a
+        victim of a police shooting. Most importantly, users can sort data by
+        each of the 50 states, as well as create clusters to better understand
+        the details of the incidents. We hope to show that there is trend within
+        the incidents and the victims that can imply deeper issues that are related (causation or correlation) to 
+        police shootings.
+        <br />
+        <br />
+        2) A map that further tries to highlight the frequency of the issue
+        throughout the United States by mapping incidents. The display of the dots on 
+        the map of the country would communicate that this is a national issue. We hoped that users
+        would find an interesting observation that many more whites seemed to be
+        part of the data and question why it appears that way despite the claims that 
+        Black communities suffer the most from police shooting. This line of 
+        question would lead to the next visualization that shows and clarifies the potential 
+        misconceptions that could be concluded from the map. 
+        <br />
+        <br />
+        3) The next bubble chart was a bit of data manipulation to highlight (as
+        previously stated) a sampling bias in the map visualization. Although the map showed
+        a greater number of white victims than that of minority victims, the ratio that we calculated (# of people killed / 
+        total population for each respective race) showed that victims of color experienced
+        police shootings at much higher frequencies.
+        <br />
+        <br />
+        4) We explored data in terms of gender and tried to justify why the
+        circumstances around shootings (as highlighted in visualization ) were
+        the way that they were. If there were so many male victims, was there a
+        correlation to them being armed and thus being percieved as a threat? We
+        also embedded some outside research to back up our hypothesis.
+        <br />
+        <br />
+        5 & 6) Finally, we created a tribute to the victims. First we create a
+        scatterplot with an interactive bar chart that showed the victims by
+        age- humanizing them and showing the loss of life. The bar chart allowed
+        closer inspection by choosing a certain range and seeing the
+        circumstances around the death in terms of whether the victim tried to
+        flee- painting a more vivid picture of the incidents. The final bar
+        chart is a way to just show a few of the names, ages, and gender of the
+        victims by race to emphasize that despite this project, each data point
+        is in fact, a person, and a catalyst to address a growing national
+        issue.
+      </p>
+      <p>
+        <strong>Design Process </strong>
+        <br />
+        <br />
+        During the design planning phase, we explored many different
+        visualizations. We experimented with treemaps along with bubble maps that would
+        encode location and weaponary. However, we didn't find this to be
+        personable enough as the tree map is a bit too general. Our goal was to hone in on
+        specific details that would lead to insights about trends and patters in police shooting incidents. 
+        
+        <br />
+        <br />
+        We then decided to create multiple vises that would encapulated not just
+        the victim emphasis, but be able to explore multiple elements as well.
+        We began experimenting with many iterations of bar charts that would
+        dictate and interact with other visualizations such as a bubble plot of
+        some sort. From this, the force graph idea was born, wanting to start
+        with a general trend indicating visualization while incorporating a drop
+        down menu with as much customizability as possible.
+        <img
+          id="img1"
+          class="bottom"
+          src=" https://cdn.glitch.me/5aff41be-0f9b-4479-8142-a732399f71cf%2FScreen%20Shot%202021-12-05%20at%2010.46.58%20PM.png?v=1638763087839
+"
+          alt="Tree"
+        />
+        <br>
+        
+      </p>
+
+     
+        </div>
+      </div>
+
+      
+    </div>
+  </body>
+</html>
+
+ 
+
+
+
+
+    
+</body>
+</html>
