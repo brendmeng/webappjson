@@ -1,9 +1,26 @@
 #links{
     margin:0px;padding: 0;
  }
-nav ul {
-    list-style: none;
+ nav{
+    position:fixed;
+    top:0;
+    left:0;
     width:100%;
+    background-color:white;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
     justify-content: center;
-    background-color: white;
-}
+  }
+  ul li {
+    margin-left: 30px;
+  }
+  
+  main {
+    
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top:50px;
+  }
