@@ -169,6 +169,11 @@ li{
     {
         display: none;
     }
+    div.contact{
+        margin-left:0px;
+
+    }
+
 }
 
 #img1,#img2, #life, #secondary, #police
