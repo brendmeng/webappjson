@@ -91,8 +91,12 @@ li{
 
 
 }
+.hide
+{
+    display: none;
+}
 .container{
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 
   }
@@ -127,8 +131,12 @@ li{
       }
       h1,h2,h3,h4
 {
-    text-align:center
+    text-align:center;
 
+}
+#listcom
+{
+    text-align:center;
 }
 .profile
 {
@@ -186,10 +194,15 @@ li{
 }
 
 
-#covid, #police
+#covid, #police, #ecom
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+.hide
+{
+    display: none;
 }
