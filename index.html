@@ -4,141 +4,277 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-
-    <nav>
-      <ul>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
-    </nav>
-    <hr>
-
-    <main>
-    <section id="about">
-      <h2>Brend Meng</h2>
-      <img src="profilepic.jpg" alt="Photo of Brend" style="max-width: 20%" />
-
-      <div>
-        <strong> Student @ Boston College</strong>
-        <br />
-        mengb@bc.edu
-        <br />
-        140 Commonwealth Ave, Chestnut Hill, MA 02467
-
-        <ul id="links">
-          <a href="Bolang (Brend) Meng Resume .pdf" target="_blank">Resume</a>
-          
-          |
-          <a href="https://twitter.com/mengbrend" target="_blank">Twitter</a>
-          |
-          <a href="https://www.linkedin.com/in/brend-meng/" target="_blank">LinkedIn</a>
-          |
-          <a href="https://github.com/brendmeng" target="_blank">Github</a>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
-      </div>
+      </nav>
+  
+      <main>
+        <section id="about">
+          <h2 >Brend Meng</h2>
+  
+          <div class="row">
+            <div class="col-6">
+              <img 
+                src="profilepic.jpg"
+                class="profile"
+                alt="Photo of Brend"
+                style="max-width: 80%"
+              />
+            </div>
+            <div class="col-6" id="aboutme">
+              <p>
+                Brend is currently a senior at Boston College, studying Finance
+                and Computer Science. He is originally from San Mateo, California,
+                but his interest in the intersection between
+                <strong>machine learning & global markets</strong> has led him to
+                working in New York City post graduation. He has experience coding
+                in Python, Java, JS (D3 Library), and R. In his free time, he
+                enjoys playing basketball and playing with his
+                <a href="hera.png"> dog. </a>
+              </p>
+            </div>
+          </div>
+  
+          <div class="contact">
+            <strong> Student @ Boston College</strong>
+            <br />
+            mengb@bc.edu
+            <br />
+            1999 Commonwealth Ave, Brighton, MA 02135
+  
+            <ul id="links">
+              <a href="Bolang (Brend) Meng Resume .pdf" target="_blank"><i class="fas fa-user-tie"></i> Resume</a>
+  
+              |
+              <a href="https://twitter.com/mengbrend" target="_blank"><i class="fab fa-twitter-square"></i></a>
+              |
+              <a href="https://www.linkedin.com/in/brend-meng/" target="_blank"
+                > <i class="fab fa-linkedin"></i></a
+              >
+              |
+              <a href="https://github.com/brendmeng" target="_blank"> <i class="fab fa-github"></i> </a>
+            </ul>
+          </div>
+        </section>
+  
+        <section id="news">
+          <h2 >News</h2>
+  
+          <div class="row">
+            <div class="col-8">
+              <!-- profile image -->
+             <strong>Senior Year Spring: Web-App Development @ BC</strong> 
+            </div>
+  
+            <div class="col-4" >Jan 18th, 2022 - Present</div>
+          </div>
+  
+          <div class="row">
+            <div class="col-8">
+              <!-- profile image -->
+           <strong> Senior Year Fall: Visualization @ BC</strong>  
+            </div>
+  
+            <div class="col-4" >Aug 30, 2021 - Dec 16th 2021</div>
+          </div>
+  
+          <div class="row">
+            <div class="col-8">
+              <!-- profile image -->
+            <strong> Summer internship in NYC @ JP Morgan </strong> 
+            </div>
+  
+            <div class="col-4" >Jun 7th, 2021-Aug 6th, 2021</div>
+          </div>
+        </section>
+  
+        <section id="projects">
+          <h2>Projects</h2>
+  
 
-      <p>
-       Brend is currently a senior at Boston College, studying Finance and Computer Science. He is originally from San Mateo, California, but his interest in the intersection between <strong>machine learning & global markets</strong> has led him to working in New York City post graduation. 
-       He has experience coding in Python, Java, JS (D3 Library), and R. In his free time, he enjoys playing basketball and playing with his <a href = "hera.png" > dog. </a>
-    
+  
+          <article>
+  
+          <div class="row">
+            <div class="col-8">
+              <!-- profile image -->
+              <div class="desc">
+                <strong class="ptitle" > Police Shootings</strong>: an
+                interactive webpage using D3 and Vega-lite 
+                telling the story of <br class= "break"> police
+                violence in the United States 
+              </div>
 
-      </p>
-    </section>
-    <hr>
-
-    <section id="news">
-      <h2>News</h2>
-      <p>
-          Senior Year Spring: Web App Development
-          <br>
-          January 18th, 2022 - Present
-
-
-          <br>
-          <br>
-
-          Senior Year Fall: Visualization
-
-          <br>
-
-        August 30, 2021 - December 16th 2021
-
-          <br>
-          <br>
-
-        In New York City for summer internship
-       
-          <br>
-        June 7th, 2021-Aug 6th, 2021
-
-
+          
+            <span class="label label-danger">Boston College</span>
+            <span class="label label-primary">D3</span>
+            <span class="label label-success">Vega-lite</span>
+            
            
-
-
-
-
-
-      </p>
-    </section>
-    <hr>
-    <section id="projects">
-      <h2>Projects</h2>
-
-      <article>
-
-   <a  href="police.html" target="_blank" >Police Shootings</a>: an interactive webpage using D3 and Vega-lite telling the story of police violence in the United States
-   <br>
-  Brend Meng, Sarah Kim, Spencer Kuldell
-         <br>
-         <i>Project for CSCI3311-Visualization, Boston College Fall 2021 </i>
-        <br>
-         <a href="https://projfinalvis.glitch.me/#introduction" target="_blank">See Project</a>
-
-                <a href="https://www.youtube.com/watch?v=L5s-XaJBZ-8" target="_blank">Demo</a>
-
-       
-        <br>
-        <img id = "police" src="police1.png" alt="img of Police shooting project" style="max-width: 30%" />
-        <br>
-
-
-      </article>
-<br>
-
-      <article>
-
-      <a  href="covid.html" target="_blank" >The Covid-19 Response</a>: a D3 JS based interactive visualization highlighting the impact of the pandemic and the variance between how different countries responded
-      <br>
-  Brend Meng, Sarah Kim, Spencer Kuldell
-         <br>
-        <i>Project for CSCI3311-Visualization, Boston College Fall 2021 </i>
-        <br>
-        <a href="https://mini-proj-3-vis.glitch.me/" target="_blank">See Project</a>
-
+            </div>
+  
+            <div class="col-4" >  
+              <i>CSCI3311-Visualization, Boston College Fall 2021 </i>
+              <br>
+              Brend Meng, Sarah Kim, Spencer Kuldell
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-8" id=policecol>
+              <!-- profile image -->
+              
+  
+              <img
+              id="police"
+              src="police1.png"
+              alt="img of Police shooting project"
+              style="max-width: 50%"
         
-                <a href="https://youtu.be/F26qCUUyD_c" target="_blank">Demo</a>
+    
+            />
+          
+           
+            </div>
+  
+            <div class="col-4">  
+              <ul class="linkgroup">
+                <li> <a href="police.html" ><i class="fas fa-info"></i> About the project</a></li>
+                <li> <a href="https://projfinalvis.glitch.me/#introduction" target="_blank"
+                  ><i class="far fa-file"></i> Project Page</a></li>
+                <li><a href="https://www.youtube.com/watch?v=L5s-XaJBZ-8" target="_blank"><i class="fas fa-video"></i> Demo</a></li>
+  
+  
+              </ul>
+             
+             
+             
+            
+             
+            </div>
+          </div>
+            
+          
+            
+      
+          </article>
+          <br />
+  
+  
+          <article>
+  
+            <div class="row">
+              <div class="col-8">
+                <!-- profile image -->
+                <div class='desc'>
+                  <strong class='ptitle'>Covid-19 Response</strong>: a D3
+                  JS based interactive visualization highlighting <br class="break"> the impact of the
+                  pandemic and the variance between how different countries responded
+                </div>
+               
+         
+              <span class="label label-danger">Boston College</span>
+            <span class="label label-primary">D3</span>
+            
+             
+              </div>
+    
+              <div class="col-4" >  
+                <i>CSCI3311-Visualization, Boston College Fall 2021 </i>
+                <br>
+                Brend Meng, Sarah Kim, Spencer Kuldell
+              </div>
+            </div>
+    
+            <div class="row">
+              <div class="col-8" id=policecol>
+                <!-- profile image -->
+                
+    
+                <img
+              id="covid"
+              src="covid.png"
+              alt="image of covid project"
+           
+            />
+            
+             
+              </div>
+    
+              <div class="col-4">  
+                <ul class="linkgroup">
+                  <li><a href="covid.html" ><i class="fas fa-info"></i> About the project</a></li> 
+                  <li><a href="https://mini-proj-3-vis.glitch.me/" target="_blank"
+                    ><i class="far fa-file"></i> Project Page</a></li>
+                  <li><a href="https://youtu.be/F26qCUUyD_c" target="_blank"><i class="fas fa-video"></i> Demo</a></li>
+                </ul>
+               
+               
+               
+              
+               
+              </div>
+            </div>
+              
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+          </article>
+         
+  
+        </section>
 
-       
         <br>
-        <img id = "covid" src="covid.png" alt="image of covid project" style="max-width: 30%" />
         <br>
- 
+        <br>
+      
 
-      </article>
+        <div>
+          <p class="animate__animated animate__infinite animate__pulse animate__delay-2s" id="thanks">
+            Thanks for visiting!
+          </p>
+        </div>
+      </main>
 
-
-
-
+    </div>
    
-    </section>
-
-</main>
   </body>
 </html>
