@@ -111,6 +111,12 @@ li{
   #aboutme
 {
    margin-top:10%;
+
+
+}   
+#name{
+    text-align: center;
+
 }
 
    
@@ -216,4 +222,9 @@ li{
 
 .row{
     padding-top:8px;
+}
+#name{
+    text-align: center;
+    font-size:50px;
+    margin-left:10px;
 }
