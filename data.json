@@ -1,39 +1,120 @@
 {
-	"about":{
-		"name":"Nam Wook Kim",
-    "title":"Assistant Professor @ Boston College",
-    "photo":"assets/profile.png",
+	"About":{
+		"name":"Brend Meng",
+    "title":"Student @ Boston College",
+    "photo":"profilepic.jpg",
+    "longdesc": "Brend is currently a senior at Boston College, studying Finance and Computer Science. He is originally from San Mateo, California, but his interest in the intersection between machine learning & global markets has led him to working in New York City post graduation. He has experience coding in Python, Java, JS (D3 Library), and R. In his free time, he enjoys playing basketball and playing with his dog.",
+    "dog": "hera.png",
     "test": "IS THIS WORKING, push"
 	},
-	"news":[
+  "Contact":{
+		"Resume":"Bolang (Brend) Meng Resume .pdf",
+    "Twitter":"https://twitter.com/mengbrend",
+    "Linkedin":"https://www.linkedin.com/in/brend-meng/",
+    "Github": "https://github.com/brendmeng"
+	},
+	"News":[
 		{
-			"title": "Attending CHI 2019 @ Glasgow, UK",
-			"date": "May 04, 2019 ~ May 09, 2019"
+			"title": "Senior Year Spring: Web-App Development @ BC",
+			"date": "Jan 18, 2022 - Present"
+		},
+    {
+			"title": "Senior Year Fall: Visualization @ BC",
+			"date": "Aug 30, 2021 - Dec 16 2021"
+		},
+    {
+			"title": "Summer internship in NYC @ JP Morgan",
+			"date": "Jun 7, 2021 - Aug 6, 2021"
+		},
+    {
+			"title": "CS2 @ BC",
+			"date": "Jan 18, 2021 - May 15, 2021"
+		},
+    {
+			"title": "CS1 @ BC",
+			"date": "Aug 28, 2020 - Dec 18, 2020"
+		},
+    {
+			"title": "Summer internship in SF @ Zippin",
+			"date": "Jun 1, 2020 - Jul 31, 2020"
 		}
 	],
-	"projects":[
+	"Projects":[
 		{
-			"id":"storycurves",
-      "title": "Visualizing Nonlinear Narratives with Story Curves",
-      "authors": "Nam Wook Kim, Benjamin Bach, Hyejin Im, Sasha Schriber, Markus Gross, Hanspeter Pfister",
-      "source": "IEEE Transactions on Visualization and Computer Graphics(InfoVis), 2018",
-      "teaser": "assets/storycurves/teaser.png",
-      "tags":["Journal", "Technique"],
+			"id":"Police",
+      "title": "Police Shootings: ",
+      "authors": "Brend Meng, Sarah Kim, Spencer Kuldell",
+      "period": "Fall 2021",
+      "source": "CSCI3311-Visualization, Boston College",
+      "teaser": "police1.png",
+      "tags":["Boston College", "D3","Vega-lite","HTML-CSS"],
       "materials": [
         { 
-          "label": "Paper",
-          "path": "assets/storycurves/paper.pdf"
+          "label": "About the project",
+          "path": "police.html"
         },
         { 
-          "label": "Video",
-          "path": "assets/storycurves/video.mp4"
+          "label": "Project Page",
+          "path": "https://projfinalvis.glitch.me/#introduction"
         },
         { 
           "label": "Demo",
-          "path": "https://storycurve.namwkim.org/"
+          "path": "https://www.youtube.com/watch?v=L5s-XaJBZ-8"
         }
       ],
       "description": "In this paper, we present story curves, a visualization technique for exploring and communicating nonlinear narratives in movies. A nonlinear narrative is a storytelling device that portrays events of a story out of chronological order, e.g., in reverse order or going back and forth between past and future events. Many acclaimed movies employ unique narrative patterns which in turn have inspired other movies and contributed to the broader analysis of narrative patterns in movies. However, understanding and communicating nonlinear narratives is a difficult task due to complex temporal disruptions in the order of events as well as no explicit records specifying the actual temporal order of the underlying story. Story curves visualize the nonlinear narrative of a movie by showing the order in which events are told in the movie and comparing them to their actual chronological order, resulting in possibly meandering visual patterns in the curve. We also present Story Explorer, an interactive tool that visualizes a story curve together with complementary information such as characters and settings. Story Explorer further provides a script curation interface that allows users to specify the chronological order of events in movies. We used Story Explorer to analyze 10 popular nonlinear movies and describe the spectrum of narrative patterns that we discovered, including some novel patterns not previously described in the literature. Feedback from experts highlights potential use cases in screenplay writing and analysis, education and film production. A controlled user study shows that users with no expertise are able to understand visual patterns of nonlinear narratives using story curves."
-		}
+		},
+    {
+      "id":"Covid",
+      "title": "Covid-19 Response: ",
+      "authors": "Brend Meng, Sarah Kim, Spencer Kuldell",
+      "period": "Fall 2021",
+      "source": "CSCI3311-Visualization, Boston College",
+      "teaser": "covid.png",
+      "tags":["Boston College", "D3","HTML-CSS"],
+      "materials": [
+        { 
+          "label": "About the project",
+          "path": "covid.html"
+        },
+        { 
+          "label": "Project Page",
+          "path": "https://mini-proj-3-vis.glitch.me/"
+        },
+        { 
+          "label": "Demo",
+          "path": "https://www.youtube.com/watch?v=F26qCUUyD_c"
+        }
+      ],
+      "description": "a D3 JS based interactive visualization highlighting the impact of the pandemic and the variance between how different countries responded. Analysis of health and economic impact as measured through life expectancy and stringency indices are used in a set of linked, interactive graphs."
+    },
+    {
+      "id":"Django",
+      "title": "E-Commerce Website: ",
+      "authors": "Brend Meng",
+      "period": "Spring 2021",
+      "source": "Personal Project, Boston College",
+      "teaser": "ecom.png",
+      "tags":["Personal", "Python-Django","HTML-CSS"],
+      "materials": [
+        { 
+          "label": "About the project",
+          "path": "ecom.html"
+        },
+        { 
+          "label": "Project Page",
+          "path": "https://github.com/justdjango/django-ecommerce"
+        },
+        { 
+          "label": "Demo",
+          "path": "https://www.youtube.com/watch?v=YZvRrldjf1Y"
+        }
+      ],
+      "description": "this is a hypothetical Django based application to simulate on online e-commerce platform with a fully functional backend, styled with HTML and CSS-bootstrap. Though I have not implemented this project or actually published it, it serves as a learning experience that I hope to one day finish. It is adopted from a set of online tutorials- information which can be found in the 'about' section of this project."
+    }
+
+
+
+
 	]
 }
