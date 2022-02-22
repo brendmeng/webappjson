@@ -96,27 +96,34 @@ li{
     display: none;
 }
 .container{
-    max-width: 85%;
+    max-width: 950px;
     margin: 0 auto;
+ 
 
   }
-  h1,h2,h3,h4
+  h1,h2,h3
   {
     margin-left:-15px;
-      
-
+    
 
   }
+  
 
   #aboutme
 {
    margin-top:10%;
+   
 
 
 }   
 #name{
     text-align: center;
+    
 
+}
+#back1, #back2,#back3
+{
+    margin-left:40px;
 }
 
    
@@ -163,6 +170,10 @@ li{
     display: none;
 }
 
+#back1, #back2,#back3
+{
+    margin-left:40px;
+}
 
    
 
@@ -194,6 +205,19 @@ li{
         margin-left:0px;
 
     }
+    #back1, #back2,#back3
+    {
+        margin-left:40px;
+    }
+    #return
+    {
+        margin-left:40px;
+    }
+    .menu
+{
+    align-content:center;
+}
+
 
 }
 
@@ -228,3 +252,8 @@ li{
     font-size:50px;
     margin-left:10px;
 }
+.menu
+{
+    margin-left:-15px;
+}
+

@@ -3,9 +3,9 @@
 		"name":"Brend Meng",
     "title":"Student @ Boston College",
     "photo":"profilepic.jpg",
-    "longdesc": "Brend is currently a senior at Boston College, studying Finance and Computer Science. He is originally from San Mateo, California, but his interest in the intersection between machine learning & global markets has led him to working in New York City post graduation. He has experience coding in Python, Java, JS (D3 Library), and R. In his free time, he enjoys playing basketball and playing with his dog.",
+    "longdesc": "Brend is currently a senior at Boston College, studying Finance and Computer Science. He is originally from San Mateo, California, but his interest in the intersection between <strong> machine learning & financial markets </strong> has led him to working in New York City post graduation. He has experience coding in Python, Java, JS (D3 Library), and R. In his free time, he enjoys playing basketball and playing with his",
     "dog": "hera.png",
-    "test": "IS THIS WORKING, push"
+    "address": "1999 Commonwealth Ave, Brighton, MA 02135"
 	},
   "Contact":{
 		"Resume":"Bolang (Brend) Meng Resume .pdf",
@@ -47,22 +47,12 @@
       "period": "Fall 2021",
       "source": "CSCI3311-Visualization, Boston College",
       "teaser": "police1.png",
-      "tags":["Boston College", "D3","Vega-lite","HTML-CSS"],
-      "materials": [
-        { 
-          "label": "About the project",
-          "path": "police.html"
-        },
-        { 
-          "label": "Project Page",
-          "path": "https://projfinalvis.glitch.me/#introduction"
-        },
-        { 
-          "label": "Demo",
-          "path": "https://www.youtube.com/watch?v=L5s-XaJBZ-8"
-        }
+      "tags":["<span class='label label-danger'>Boston College</span>", "<span class='label label-primary'>D3</span>","<span class='label label-success'>Vega-lite</span>","<span class='label label-default'>HTML-CSS</span>"
       ],
-      "description": "In this paper, we present story curves, a visualization technique for exploring and communicating nonlinear narratives in movies. A nonlinear narrative is a storytelling device that portrays events of a story out of chronological order, e.g., in reverse order or going back and forth between past and future events. Many acclaimed movies employ unique narrative patterns which in turn have inspired other movies and contributed to the broader analysis of narrative patterns in movies. However, understanding and communicating nonlinear narratives is a difficult task due to complex temporal disruptions in the order of events as well as no explicit records specifying the actual temporal order of the underlying story. Story curves visualize the nonlinear narrative of a movie by showing the order in which events are told in the movie and comparing them to their actual chronological order, resulting in possibly meandering visual patterns in the curve. We also present Story Explorer, an interactive tool that visualizes a story curve together with complementary information such as characters and settings. Story Explorer further provides a script curation interface that allows users to specify the chronological order of events in movies. We used Story Explorer to analyze 10 popular nonlinear movies and describe the spectrum of narrative patterns that we discovered, including some novel patterns not previously described in the literature. Feedback from experts highlights potential use cases in screenplay writing and analysis, education and film production. A controlled user study shows that users with no expertise are able to understand visual patterns of nonlinear narratives using story curves."
+      "page":"https://projfinalvis.glitch.me/#introduction",
+      "vid":"https://www.youtube.com/watch?v=L5s-XaJBZ-8",
+    
+      "description": "an interactive webpage using D3 and Vega-lite telling the story of police gun violence against citizens in the United States. The site & presentation uses a plethora of visualizations to convey a nonbias narrative in hopes of informing the viewer about the present condition of our country regarding this issue."
 		},
     {
       "id":"Covid",
@@ -71,21 +61,10 @@
       "period": "Fall 2021",
       "source": "CSCI3311-Visualization, Boston College",
       "teaser": "covid.png",
-      "tags":["Boston College", "D3","HTML-CSS"],
-      "materials": [
-        { 
-          "label": "About the project",
-          "path": "covid.html"
-        },
-        { 
-          "label": "Project Page",
-          "path": "https://mini-proj-3-vis.glitch.me/"
-        },
-        { 
-          "label": "Demo",
-          "path": "https://www.youtube.com/watch?v=F26qCUUyD_c"
-        }
-      ],
+      "tags":["<span class='label label-danger'>Boston College</span>","<span class='label label-primary'>D3</span>","<span class='label label-default'>HTML-CSS</span>"],
+      "page":"https://mini-proj-3-vis.glitch.me/",
+      "vid":"https://www.youtube.com/watch?v=F26qCUUyD_c",
+    
       "description": "a D3 JS based interactive visualization highlighting the impact of the pandemic and the variance between how different countries responded. Analysis of health and economic impact as measured through life expectancy and stringency indices are used in a set of linked, interactive graphs."
     },
     {
@@ -95,26 +74,99 @@
       "period": "Spring 2021",
       "source": "Personal Project, Boston College",
       "teaser": "ecom.png",
-      "tags":["Personal", "Python-Django","HTML-CSS"],
-      "materials": [
-        { 
-          "label": "About the project",
-          "path": "ecom.html"
-        },
-        { 
-          "label": "Project Page",
-          "path": "https://github.com/justdjango/django-ecommerce"
-        },
-        { 
-          "label": "Demo",
-          "path": "https://www.youtube.com/watch?v=YZvRrldjf1Y"
-        }
-      ],
+      "tags":["<span class='label label-info'>Personal</span>", "<span class='label label-warning'>Python-Django</span>","<span class='label label-default'>HTML-CSS</span>"],
+      "page":"https://github.com/justdjango/django-ecommerce",
+      "vid":"https://www.youtube.com/watch?v=YZvRrldjf1Y",
+    
       "description": "this is a hypothetical Django based application to simulate on online e-commerce platform with a fully functional backend, styled with HTML and CSS-bootstrap. Though I have not implemented this project or actually published it, it serves as a learning experience that I hope to one day finish. It is adopted from a set of online tutorials- information which can be found in the 'about' section of this project."
     }
 
 
 
 
-	]
+	],
+  "Pages":[
+    {
+      "name":"Police",
+      "maintitle": "Visualization: Police Violence in America",
+      "preview": "id = 'police' src='force.png' alt='photo of force graph' style='max-width: 50%' ",
+      "preview2": " ",
+      "members": "Brend (Bolang) Meng, Sarah Kim, Spencer Kuldell",
+      "video": "https://www.youtube.com/watch?v=L5s-XaJBZ-8",
+      "motivation": " Gun violence has been one of the top topics of concern for the United States. From mass shootings to police gun violence, the U.S. has been dealing with a recent surge in gun violence victims.           Many of the reasons why people own a gun is because they feel unsafe, stemming from distrust in the police, who are meant to protect the people. We will highlight police shootings from 2015 to 2021.   We will dive into the profile of the victims of those shot by the police around the United States as well as the circumstances surrounding the incidents in order to help readers understand the urgency and reality of the issue.",
+      "link1": "href='https://mappingpoliceviolence.org' target='blank'>Mapping Police Violence",
+      "link2": "href='https://www.kaggle.com/jpmiller/police-violence-in-the-us' target=blank'> Kaggle Dataset",
+      "link3": "href='https://policeviolencereport.org' target='_blank'> Police Violence Report- Inspiration",
+      "want": "Generally, all of our data processing was done in cleaning the data. The dataset contained empty cells that would cause errors when implementing the data. So, for our visualizations to work more effectively, we wanted to include the 'null' data. We filled in these blank cells with data describing the type of 'null' value like 'N/A' or 'Undefined'. This word selection was specific to the category that the blank cell was in. Once the data had no more blanks, it made the visualizations more accurate and easier to understand.",
+      "todo": "To show and hopefully grant some insight into a very controversial issue, we created the following:",
+      "li1":"An interactive force visualization: where each node designates a victim of a police shooting. Most importantly, users can sort data by             each of the 50 states, as well as create clusters to better understand             the details of the incidents. We hope to show that there is trend within             the incidents and the victims that can imply deeper issues that are related (causation or correlation) to              police shootings.",
+      "li2": "2) A geographical map: further trying to highlight the frequency of the issue throughout the United States by mapping incidents. The display of the dots on              the map of the country would communicate that this is a national issue. We hoped that users             would find an interesting observation that many more whites seemed to be             part of the data and question why it appears that way despite the claims that              Black communities suffer the most from police shooting. This line of              question would lead to the next visualization that shows and clarifies the potential              misconceptions that could be concluded from the map. ",
+      "interact": " The bubble chart was a bit of data manipulation to highlight (as previously stated) a sampling bias in the map visualization. Although the map showed  a greater number of white victims than that of minority victims, the ratio that we calculated (# of people killed / total population for each respective race) showed that victims of color experienced  police shootings at much higher frequencies.       <br>   <br>      We also created a tribute to the victims. Using a scatterplot with an interactive bar chart that showed the victims by age- humanizing them and showing the loss of life. The bar chart allowed       closer inspection by choosing a certain range and seeing the       circumstances around the death in terms of whether the victim tried to       flee- painting a more vivid picture of the incidents. The final bar       chart is a way to just show a few of the names, ages, and gender of the       victims by race to emphasize that despite this project, each data point       is in fact, a person, and a catalyst to address a growing national       issue.  ",
+      "takeaway": " Police shootings incidents occur due to implicit bias toward people of color and gender → we can see that the police reports that the victims were not a threat (most were not fleeing, implying that they were compliant) but they were still perceived as a threat and shot ",
+      "process1": " During the design planning phase, we explored many different visualizations. We experimented with treemaps along with bubble maps that would encode location and weaponary. However, we didn't find this to be  personable enough as the tree map is a bit too general. Our goal was to hone in on  specific details that would lead to insights about trends and patters in police shooting incidents.",
+      "img2" : "https://cdn.glitch.me/5aff41be-0f9b-4479-8142-a732399f71cf%2FScreen%20Shot%202021-12-05%20at%2010.46.58%20PM.png?v=1638763087839",
+      "process2": "  We then decided to create multiple vizes that would encapulate not just         the victim emphasis, but explore multiple elements as well.         We began experimenting with many iterations of bar charts that would         dictate and interact with other visualizations such as a bubble plot of   some sort. From this, the force graph idea was born, starting         with a general trend indicating visualization while incorporating a drop         down menu with as much customizability as possible.",
+      "struggle1": "1) Building modular code and collaborating with interacting visualizations is challenging. Everyone codes differently- so finding variables within differently structured code and mixing logic was extremely tough. Furthermore, some concepts were hard to code at a baseline, and so trying to implement things other people might not understand was difficult, siloeing the tasks even more.",
+      "struggle2": "2) Using vega-lite in conjunction with D3 was a bit confusing and sometimes it would be hard to ensure that the themes and styles were consistent.",
+      "struggle3": "3) For the scrolling, we actually used J-query which none of us had really worked with before. However, to get the user experience we intended, it was a necessary hill to climb.",
+      "final": "Using data to explore a real-life 'phenomenon'/occurance was an eye-opening experience. A lot of bias goes into media/viz, but doing it by ourselves helped to clarify a lot of misconceptions."
+
+    },
+    {
+      "name":"Covid",
+      "maintitle": "Visualization: Covid 19 and the Economy",
+      "preview": "id = 'life' src='life.png' alt='Intro to Covid graph' style='max-width: 30%'",
+      "preview2": "id = 'secondary' src='secondary.png' alt='Interactive covid graphs' style='max-width: 30%'  ",
+      "members": "Brend (Bolang) Meng, Sarah Kim, Spencer Kuldell",
+      "video": "https://www.youtube.com/watch?v=F26qCUUyD_c",
+      "motivation": "For this project, we explored a few datasets and eventually decided on the Covid Dataset-        the first in the list below, as it had the most complete, vibrant, and diverse data        that could allow us to find trends using the most amount of independent variables.       It gave the team        flexibility to brainstorm narratives that we wanted to analyze; Covid was so prominent in our lives that having a large dataset with many columns gave us the chance to see the many different impacts a pandemic has on a global scale- and how the world responded. We were able to learn       more about the effects of Covid through this project and hoped that we could share       the interesting insights that this dataset provides to see if our hypotheses/gut instincts were correct.",
+      "link1": "href='https://github.com/owid/covid-19-data' target='_blank'>Covid 19 Data",
+      "link2": "href='https://www.kaggle.com/shivamb/tech-company-fundings-2020-onwards' target='_blank' Tech Funding 2020 and Onward",
+      "link3": "href='https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo' target='_blank'> 2021 Tokyo Olympic Data",
+      "want": "We wanted to explore life expectancies by region, new cases by month, new deaths by months, and stringency index by month.      While the other topics are self-explanatory, the stringency index is a measure that indicates     the strictness of the lockdown policies. Judging from the life expectancy and number of new cases,     we expected to see correlation between these three elements. Our main theory was this: less developed countries with lower base life expectancies meant that covid cases/deaths would be higher. In response to this, countries would enact stricter protocols to combat the surge in infections.",
+      "todo": "To do this, we picked a few different methods to depict the data: ",
+      "li1":" Bar chart: allows us to illustrate total life expectancy by the country through length encoding. The reason we want to know life expectancy is to connect the severity of impact that new cases would have on a specific country.  Life expectancy is affected by the quality and quanitity of resources that contribute to maintaining or recovering good health. Low life expectancies are typically associated with developing countries with relatively poor public healthcare systems and would thus be most drastically affected by Covid. A pandemic would exacerbate the problems of poorly managed healthcare and expose their weaknesses.           For example, through the sorting function, we can see that Nigeria has the lowest life expectancy, while Japan            has the highest. This suggests that the rate/severity of new cases, and thus, death of COVID will be heavier in Nigeria           than it would be in Japan.",
+      "li2": " Two line charts: performs better in displaying individual data points (especially with our addition of the tooltip) and grants the ability to brush.The brushing and linking of two graphs allows users to take an abstract concept and better zoom into the area of focus to examine a relationship. Lines, as an angular and spatial encoding allow for better visual comparisons as well- especially through time scales.           We created one graph that specifies new cases -that can change to new deaths- and another that displays the stringency index of the corresponding country.        Showing the trend of new cases over time           and its correlation with the stringency index can also give us insights into            how Covid would have an impact on the quality of life in these regions and how authorities responded. The line graphs            display the specific country that the user selects by clicking on the bars.           ",
+      "interact": "For the bar graph, we used a sort function to help distinguish the bars by height, and thus arrange the data in ascending/descending order of life expectancy. We also made the bars interactive so that you can customize which country you are viewing by linking user selection with the graphs below that indicate new cases/deaths and stringency index. <br> The two line graphs are customizable by user selection when clicking the bar that corresponds with the country they are interested in exploring. The case/death graph can brush/link to the stringency one, while also allowing the user to change the data from new cases per day to new deaths per day. For the stringency line graph, users can hover over selected points to see a clear marker at each point, denoting the stringency index value, number of cases, and deaths.",
+      "takeaway": "This was a relevant topic to the times, but it also showed us how little we really knew as a world about combatting pandemics. Thankfully they aren't common, but the variation in results was horrifying to look at.",
+      "process1": "      We were pretty firm on how we wanted to approach the problem from the start. Below are some of the visualizations we drew out as models for the visualizations we hoped to create after looking through the data",
+      "img2" : "https://cdn.glitch.me/5aff41be-0f9b-4479-8142-a732399f71cf%2FScreen%20Shot%202021-12-05%20at%2010.46.58%20PM.png?v=1638763087839",
+      "process2": "  We then decided to create multiple vizes that would encapulate not just         the victim emphasis, but explore multiple elements as well. We began experimenting with many iterations of bar charts that would dictate and interact with other visualizations such as a bubble plot of         some sort. From this, the force graph idea was born, starting         with a general trend indicating visualization while incorporating a drop         down menu with as much customizability as possible.",
+      "struggle1": "1) There was just simply so much data. From an outside view, we realize that the visualization looks like it has so many options already, but the data itself was far more immense. Choosing what to include and what to omit was a huge part of the project.",
+      "struggle2": "2) Brushing and linking was no easy task. It was difficult to conceptually think through what was being brushed, what the range of data was that was being passed to the stringency graph, and ensuring that all update+enter+exit patterns were properly implemented with no bugs.",
+      "struggle3": "3) Simply sorting the bar graphs and ensuring that it did not hinder/adversely impact other animations/linking implemented prior was meticulous- we had to be careful and triple check code to ensure nothing was interfering and the correct elements were being selected.",
+      "final": "This was a learning experience, both about covid, visualization, and collaboration. The process could have been more organized and the execution could have been cleaner. But, considering that this was all out first times doing a collaboration project like this, it was a good experience. We will definitely take the lessons we learned through this project to be better in our future endeavors."
+
+    },
+    {
+      "name":"Django",
+      "maintitle": "B-Commerce: A Django-Python E-commerce Project",
+      "preview": "id = 'life' src='ecom.png' alt='Intro to Covid graph' style='max-width: 30%'",
+      "preview2": "id = 'secondary' src='secondary.png' alt='Interactive covid graphs' style='max-width: 30%'",
+      "members": "Brend (Bolang) Meng",
+      "video": "https://www.youtube.com/watch?v=YZvRrldjf1Y",
+      "motivation": "For this hypothetical project, I used python and specifically the Django framework in order to create a fully functioning e-commerce site. It had the following functionalities: <ul id='listcom'> <li>-Setup and project configuration</li> <li>-Adding items to a cart</li> <li>-Creating an order summary</li> <li>-The checkout process</li> <li>-Handling payments with Stripe</li> <li>-Discount codes</li> <li>-Managing refunds</li> <li>-Default addresses</li> <li>-Saving credit card information</li> </ul> <p> I also used the following tutorials: </p>",
+      "link1": "href='https://www.freecodecamp.org/news/how-to-build-an-e-commerce-website-with-django-and-python/' target='_blank'>FreeCodeCamp",
+      "link2": "href='https://www.youtube.com/watch?v=rHux0gMZ3Eg'target='_blank'>Coding with Mosh",
+      "link3": "href='https://policeviolencereport.org' target='_blank'> Police Violence Report- Inspiration",
+      "want": "I wanted to challenge myself and see if I could self study a project",
+      "todo": "To do this, I used online resources to try and replicate an online",
+      "li1":" 1) Mosh was very helpful in explaining things in the easiest way without too much or too little information",
+      "li2": "2) Having the github repository was helpful to check as I went",
+      "interact": "Django was used in the backend, and HTML/CSS was used for the frontend, creating a cohesive user experience.",
+      "takeaway": "The project would be a learning experience with me as I haven't exactly done backend programming during my time at Boston College. However, it would be rewarding as the skillset would help me apply to many different roles and allow me to hopefully one day design and launch apps.",
+      "process1": "I would watch the tutorials and try to emulate the code in my own IDE, while jotting down some notes on some function/syntaxes that are new.     <br>",
+      "img2" : "fakecode1.png",
+      "process2": "I initially wanted to follow the tutorial literally, but I took my own route using bootstrap and using a different data model to create my application.",
+      "struggle1": "1) This was a bit of a challenging project as it would have taken a lot of time. It's a whole new framework and personally, some online tutorials end up teaching very niche skills that do not necessarily translate well. There was a lot of stack exchange and googling done in order to keep up.",
+      "struggle2": "2) This project has also led to an interest in other web frameworks such as python-flask. I also realized I need to learn more about SQL-life database manipulation",
+      "struggle3": " ",
+      "final": "This was a learning experience, and of course, only a hypothetical project. But looking deeper into these tutorials, the framework, and how it is all implemented, I think it is actually very doable and I hope to tackle this in the future."
+
+    }
+  
+
+
+  ]
+
 }

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  
+    <link rel="stylesheet" href="style.css" />
+    <title>About Police Shootings</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+
+  
+    <nav>
+ 
+        <li><a id = "back1" href="index.html#projects"><i class="fas fa-undo"></i> Go Back</a></li>
+      
+
+
+  </nav>
+    <div class="info">
+      
+    
+    <h1> Visualization: Police Violence in America
+    </h1>
+      
+
+    <img id = "police" src="force.png" alt="photo of force graph " style="max-width: 50%" />
+
+
+
+
+      
+    <p>
+<br> Members: Brend (Bolang) Meng, Sarah Kim, Spencer Kuldell
+    </p>
+
+    <li> <a href="https://www.youtube.com/watch?v=L5s-XaJBZ-8" target="_blank"><i class="fas fa-video"></i> Video Demo</a></li>
+    
+    <h2>
+      Project Information
+    </h2>
+    <h3>
+      Motivations
+    </h3>
+    <p>
+        Gun violence has been one of the top topics of concern for the United States. From mass shootings to police gun violence, the U.S. has been dealing with a recent surge in gun violence victims.
+
+
+        Many of the reasons why people own a gun is because they feel unsafe, stemming from distrust in the police, who are meant to protect the people. We will highlight police shootings from 2015 to 2021.
+        
+        
+        We will dive into the profile of the victims of those shot by the police around the United States as well as the circumstances surrounding the incidents in order to help readers understand the urgency and reality of the issue.
+      <ul>
+        
+            <li>
+         <a href="https://mappingpoliceviolence.org" target="_blank">Mapping Police Violence</a>
+        
+          <li>
+            <a href="https://www.kaggle.com/jpmiller/police-violence-in-the-us" target="_blank">
+              Kaggle Dataset
+            </a>
+        </li>
+        
+        <li>
+          <a href="https://policeviolencereport.org" target="_blank">
+Police Violence Report- Inspiration          </a>
+        </li>
+        
+        
+        
+      </ul>
+    </p>
+    
+    <p>
+We wanted to explore life expectancies by region, new cases by month, new deaths by months, and stringency index by month. 
+    While the other topics are self-explanatory, the stringency index is a measure that indicates
+    the strictness of the lockdown policies. Judging from the life expectancy and number of new cases,
+    we expected to see correlation between these three elements. Our main theory was this: less developed countries with lower base life expectancies meant that covid cases/deaths would be higher. In response to this, countries would enact stricter protocols to combat the surge in infections.
+   
+    
+    <h3>
+Visualization Design and Encoding   </h3>
+    <p>
+        To show and hopefully grant some insight into a very controversial
+        issue, we created the following:
+    </p>
+   
+        <li>
+            1) An interactive force visualization where each node designates a
+            victim of a police shooting. Most importantly, users can sort data by
+            each of the 50 states, as well as create clusters to better understand
+            the details of the incidents. We hope to show that there is trend within
+            the incidents and the victims that can imply deeper issues that are related (causation or correlation) to 
+            police shootings.
+  
+        </li>
+        <li>
+            2) A map that further tries to highlight the frequency of the issue
+            throughout the United States by mapping incidents. The display of the dots on 
+            the map of the country would communicate that this is a national issue. We hoped that users
+            would find an interesting observation that many more whites seemed to be
+            part of the data and question why it appears that way despite the claims that 
+            Black communities suffer the most from police shooting. This line of 
+            question would lead to the next visualization that shows and clarifies the potential 
+            misconceptions that could be concluded from the map. 
+            <br />
+          
+        </li>
+        
+ <h3>
+Interactions and Animation Functions    </h3>
+
+  
+      The interactions we incorporated were...
+    
+    <p> 
+        The bubble chart was a bit of data manipulation to highlight (as
+        previously stated) a sampling bias in the map visualization. Although the map showed
+        a greater number of white victims than that of minority victims, the ratio that we calculated (# of people killed / 
+        total population for each respective race) showed that victims of color experienced
+        police shootings at much higher frequencies.
+      <br>
+      Finally, we created a tribute to the victims. First we create a
+      scatterplot with an interactive bar chart that showed the victims by
+      age- humanizing them and showing the loss of life. The bar chart allowed
+      closer inspection by choosing a certain range and seeing the
+      circumstances around the death in terms of whether the victim tried to
+      flee- painting a more vivid picture of the incidents. The final bar
+      chart is a way to just show a few of the names, ages, and gender of the
+      victims by race to emphasize that despite this project, each data point
+      is in fact, a person, and a catalyst to address a growing national
+      issue.  
+    </p>
+    </p>
+    
+    
+    <p>
+      Some takeaways from the data were..
+      <br>
+      Police shootings incidents occur due to implicit bias toward people of color and gender → we can see that the police reports that the victims were not a threat (most were not fleeing, implying that they were compliant) but they were still perceived as a threat and shot
+       <br>
+    </p>
+
+   
+    
+      
+    <h2>
+    Our Process
+    </h2>
+   
+    <p>
+
+        During the design planning phase, we explored many different
+        visualizations. We experimented with treemaps along with bubble maps that would
+        encode location and weaponary. However, we didn't find this to be
+        personable enough as the tree map is a bit too general. Our goal was to hone in on
+        specific details that would lead to insights about trends and patters in police shooting incidents. 
+ 
+      <image id="img2" src="https://cdn.glitch.me/5aff41be-0f9b-4479-8142-a732399f71cf%2FScreen%20Shot%202021-12-05%20at%2010.46.58%20PM.png?v=1638763087839"
+         ></image>
+     
+      <br>  
+   
+      <br>
+    </p>
+      
+      <p>
+        
+        We then decided to create multiple vizes that would encapulate not just
+        the victim emphasis, but explore multiple elements as well.
+        We began experimenting with many iterations of bar charts that would
+        dictate and interact with other visualizations such as a bubble plot of
+        some sort. From this, the force graph idea was born, starting
+        with a general trend indicating visualization while incorporating a drop
+        down menu with as much customizability as possible.
+        <br> 
+      </p>
+    
+    <h3>
+      Struggles and Lessons
+    </h3>
+    <p>
+      <ul>
+        <li>
+Building modular code and collaborating with interacting visualizations is challenging. Everyone codes differently- so finding variables within differently structured code and mixing logic was extremely tough. Furthermore, some concepts were hard to code at a baseline, and so trying to implement things other people might not understand was difficult, siloeing the tasks even more.
+       </li>
+       
+   <li> Brushing and linking is no easy task. It was difficult to conceptually think through what was being brushed, what the range of data was that was being passed to the stringency graph, and ensuring that all update+enter+exit patterns were properly implemented with no bugs.
+     
+  <li> 
+    Simply sorting the bar graphs and ensuring that it did not hinder/adversely impact other animations/linking implemented prior was meticulous- we had to be careful and triple check code to ensure nothing was interfering and the correct elements were being selected.
+   
+     
+    
+     <br> <br> 
+
+     Final Thoughts: Police final thoughts
+                       
+     
+    </p>
+    </div>
+  </div>
+  </body>
+</html>
