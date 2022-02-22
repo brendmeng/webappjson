@@ -37,8 +37,6 @@
 
 
 
- 
-
   
   section{
       padding-top:30px;
@@ -257,3 +255,7 @@ li{
     margin-left:-15px;
 }
 
+#about
+{
+    margin-top:-20px;
+}
