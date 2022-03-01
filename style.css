@@ -6,7 +6,7 @@
     margin-left:-30px;
  }
  #search {
-	width:102%;
+	width:101.8%;
   margin:0.5rem 0 0.5rem 0;
 
   font-size: 0.9rem;
@@ -14,9 +14,16 @@
   border-radius: 1rem;
   border: 1px solid #eeeeee;
 }   
+label 
+{
+    margin:5px;
+  
+}
+
 .filter
 {
-    margin-left:-15px;
+    margin-left:-20px;
+    font-size:11px;
 }
 
  nav{
@@ -164,6 +171,10 @@ li{
     text-align:center;
 
 }
+#search
+{
+    width:100%;
+}
 #listcom
 {
     text-align:center;
@@ -231,6 +242,7 @@ li{
 {
     margin-left:-15px;
     font-size:11px;
+    align-content:center;
 }
 #search {
 	margin-left:7px;
