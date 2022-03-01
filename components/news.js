@@ -21,7 +21,7 @@ export default function renderNewsSec(news) {
   }
   
  export function renderNews(news) {
-    return news
+    return news.slice(0,6)
       .map(
         (d) => `
       <div class="row">
