@@ -1,4 +1,4 @@
-import renderNavBar from "/components/navbar.js"
+import renderNavBar from "./components/navbar.js"
 import renderMainPage from "./components/mainpage.js"
 import renderProjectPage from "./components/projectpage.js"
 
