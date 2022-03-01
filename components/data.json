@@ -2,13 +2,13 @@
 	"About":{
 		"name":"Brend Meng",
     "title":"Student @ Boston College",
-    "photo":"./components/assets/profilepic.jpg",
+    "photo":"./assets/profilepic.jpg",
     "longdesc": "Brend is currently a senior at Boston College, studying Finance and Computer Science. He is originally from San Mateo, California, but his interest in the intersection between <strong> machine learning & financial markets </strong> has led him to working in New York City post graduation. He has experience coding in Python, Java, JS (D3 Library), and R. In his free time, he enjoys playing basketball and playing with his",
-    "dog": "/components/assets/hera.png",
+    "dog": "./assets/hera.png",
     "address": "1999 Commonwealth Ave, Brighton, MA 02135"
 	},
   "Contact":{
-		"Resume":"/components/assets/resume.pdf",
+		"Resume":"./assets/resume.pdf",
     "Twitter":"https://twitter.com/mengbrend",
     "Linkedin":"https://www.linkedin.com/in/brend-meng/",
     "Github": "https://github.com/brendmeng"
@@ -46,7 +46,7 @@
       "authors": "Brend Meng, Sarah Kim, Spencer Kuldell",
       "period": "Fall 2021",
       "source": "CSCI3311-Visualization, Boston College",
-      "teaser": "/components/assets/police1.png",
+      "teaser": "./assets/police1.png",
       "tag":["Boston College","D3","Vega-lite","HTML-CSS"],
       "tags":["<span class='label label-danger'>Boston College</span>", "<span class='label label-primary'>D3</span>","<span class='label label-success'>Vega-lite</span>","<span class='label label-default'>HTML-CSS</span>"
       ],
@@ -61,7 +61,7 @@
       "authors": "Brend Meng, Sarah Kim, Spencer Kuldell",
       "period": "Fall 2021",
       "source": "CSCI3311-Visualization, Boston College",
-      "teaser": "/components/assets/covid.png",
+      "teaser": "./assets/covid.png",
       "tag":["Boston College","D3","HTML-CSS"],
       "tags":["<span class='label label-danger'>Boston College</span>","<span class='label label-primary'>D3</span>","<span class='label label-default'>HTML-CSS</span>"],
       "page":"https://mini-proj-3-vis.glitch.me/",
@@ -75,7 +75,7 @@
       "authors": "Brend Meng",
       "period": "Spring 2021",
       "source": "Personal Project, Boston College",
-      "teaser": "/components/assets/ecom.png",
+      "teaser": "./assets/ecom.png",
       "tag":["Personal","Python-Django","HTML-CSS"],
       "tags":["<span class='label label-info'>Personal</span>", "<span class='label label-warning'>Python-Django</span>","<span class='label label-default'>HTML-CSS</span>"],
       "page":"https://github.com/justdjango/django-ecommerce",
@@ -92,7 +92,7 @@
     {
       "name":"Police",
       "maintitle": "Visualization: Police Violence in America",
-      "preview": "id = 'police' src='/components/assets/force.png' alt='photo of force graph' style='max-width: 50%' ",
+      "preview": "id = 'police' src='./assets/force.png' alt='photo of force graph' style='max-width: 50%' ",
       "preview2": " ",
       "members": "Brend (Bolang) Meng, Sarah Kim, Spencer Kuldell",
       "video": "https://www.youtube.com/watch?v=L5s-XaJBZ-8",
@@ -118,8 +118,8 @@
     {
       "name":"Covid",
       "maintitle": "Visualization: Covid 19 and the Economy",
-      "preview": "id = 'life' src='/components/assets/life.png' alt='Intro to Covid graph' style='max-width: 30%'",
-      "preview2": "id = 'secondary' src='/components/assets/secondary.png' alt='Interactive covid graphs' style='max-width: 30%'  ",
+      "preview": "id = 'life' src='./assets/life.png' alt='Intro to Covid graph' style='max-width: 30%'",
+      "preview2": "id = 'secondary' src='./assets/secondary.png' alt='Interactive covid graphs' style='max-width: 30%'  ",
       "members": "Brend (Bolang) Meng, Sarah Kim, Spencer Kuldell",
       "video": "https://www.youtube.com/watch?v=F26qCUUyD_c",
       "motivation": "For this project, we explored a few datasets and eventually decided on the Covid Dataset-        the first in the list below, as it had the most complete, vibrant, and diverse data        that could allow us to find trends using the most amount of independent variables.       It gave the team        flexibility to brainstorm narratives that we wanted to analyze; Covid was so prominent in our lives that having a large dataset with many columns gave us the chance to see the many different impacts a pandemic has on a global scale- and how the world responded. We were able to learn       more about the effects of Covid through this project and hoped that we could share       the interesting insights that this dataset provides to see if our hypotheses/gut instincts were correct.",
@@ -144,8 +144,8 @@
     {
       "name":"Django",
       "maintitle": "B-Commerce: A Django-Python E-commerce Project",
-      "preview": "id = 'life' src='/components/assets/ecom.png' alt='Intro to Covid graph' style='max-width: 30%'",
-      "preview2": "id = 'secondary' src='/components/assets/secondary.png' alt='Interactive covid graphs' style='max-width: 30%'",
+      "preview": "id = 'life' src='./assets/ecom.png' alt='Intro to Covid graph' style='max-width: 30%'",
+      "preview2": "id = 'secondary' src='./assets/secondary.png' alt='Interactive covid graphs' style='max-width: 30%'",
       "members": "Brend (Bolang) Meng",
       "video": "https://www.youtube.com/watch?v=YZvRrldjf1Y",
       "motivation": "For this hypothetical project, I used python and specifically the Django framework in order to create a fully functioning e-commerce site. It had the following functionalities: <ul id='listcom'> <li>-Setup and project configuration</li> <li>-Adding items to a cart</li> <li>-Creating an order summary</li> <li>-The checkout process</li> <li>-Handling payments with Stripe</li> <li>-Discount codes</li> <li>-Managing refunds</li> <li>-Default addresses</li> <li>-Saving credit card information</li> </ul> <p> I also used the following tutorials: </p>",
