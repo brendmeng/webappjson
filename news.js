@@ -1,6 +1,5 @@
 
 export default function renderNewsSec(news) {
-    console.log('wtf News')
   
     return ` 
       <section id="news">

@@ -1,7 +1,6 @@
 
 
  export default function renderProjects(projects) {
-    console.log('wtf')
     return `
       <section id="projects">
       <h2>Projects</h2>
