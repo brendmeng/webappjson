@@ -8,7 +8,7 @@ export default function renderNewsSec(news) {
       <h2>Technical News</h2>
       <div class = "menu">
     
-        <input id="search" type = "text" placeholder="Search News..."/>
+        <input id="search" type = "text" placeholder="Search News with title..."/>
         
       </div>
   
