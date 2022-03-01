@@ -1,10 +1,10 @@
 //Code for this week to ensure JSON data is loaded:
-import renderNavBar from "./components/navbar.js"
-import renderMainPage from "./components/mainpage.js"
-import renderProjectPage from "./components/projectpage.js"
+import renderNavBar from "./navbar.js"
+import renderMainPage from "./mainpage.js"
+import renderProjectPage from "./projectpage.js"
 
 
-fetch("/components/data.json")
+fetch("./data.json")
   .then((d) => d.json())
   .then((data) => {
     console.log(data);
